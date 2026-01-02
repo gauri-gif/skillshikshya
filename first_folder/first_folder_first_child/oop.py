@@ -18,14 +18,14 @@
 #         self.name=name
 #         self.health=health
 #         self.attack_power=attack_power
-        
-        
 
-# class Student:
-#     def __init__(self, name, age):
-#         self.name = name     
-#         self.age = age        
 
-# s = Student("Gauri", 22)
-# print(s.name)
-# print(s.age)
+
+class Student:
+    def __init__(self, name):
+        self.name = name      
+
+s = Student("Gauri")   
+print(s.name)          
+
+
