@@ -250,10 +250,23 @@ def palindrome(s):
             return False
         return palindrome(s[1:-1])       
         
-s=input("Enter the string:")
+s=input("Enter the string( level):")
 if palindrome:
     print("palindrome ")
 else:
     print("not palindrome")
 
 (palindrome(s))      
+
+
+
+
+
+def sum_of_digits(n):
+    if n < 10:
+        return n
+    return n % 10 + sum_of_digits(n // 10)
+
+number = int(input("Enter any number : "))
+print(sum_of_digits(number))
+
