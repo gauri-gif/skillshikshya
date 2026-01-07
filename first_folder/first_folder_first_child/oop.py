@@ -1,6 +1,6 @@
 # class dog():
-#     def sound(self):
-#         print("bark")
+#     def __init__(self,name,age,color):
+#         self.name 
 
 
 # class cat():
@@ -21,11 +21,11 @@
 
 
 
-class Student:
-    def __init__(self, name):
-        self.name = name      
+# class Student:
+#     def __init__(self, name):
+#         self.name = name      
 
-s = Student("Gauri")   
-print(s.name)          
+# s = Student("Gauri")   
+# print(s.name)          
 
 
